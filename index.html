@@ -3,34 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minimalistic Blog</title>
+    <title>Barbara Gendron's Blog</title>
     
     <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- HTML Content -->
     <header>
-        <h1>Minimalistic Blog</h1>
+        <h1>Barbara Gendron's Blog</h1>
     </header>
 
     <main>
-        <article>
-            <h2>Blog Post Title 1</h2>
+        <div class="card">
+            <img src="./images/image1.jpg" alt="Blog Post Image 1">
+            <h2 onclick="navigateToPost('./posts/post1.html')">Blog Post Title 1</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Donec euismod magna ac velit interdum, id volutpat tortor euismod.</p>
-            <a href="#">Read more</a>
-        </article>
+            <a href="./posts/post1.html">Read more</a>
+        </div>
 
-        <article>
-            <h2>Blog Post Title 2</h2>
+        <div class="card">
+            <img src="./images/image2.jpg" alt="Blog Post Image 2">
+            <h2 onclick="navigateToPost('./posts/post2.html')">Blog Post Title 2</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Donec euismod magna ac velit interdum, id volutpat tortor euismod.</p>
-            <a href="#">Read more</a>
-        </article>
+            <a href="./posts/post2.html">Read more</a>
+        </div>
+        <!-- Add more cards as needed -->
     </main>
 
     <footer>
-        &copy; 2024 Minimalistic Blog. All rights reserved.
+        &copy; 2024 Barbara Gendron. All rights reserved.
     </footer>
+
+    <!-- Link to external JavaScript file (optional) -->
+    <!-- <script src="scripts.js"></script> -->
 </body>
 </html>
-
