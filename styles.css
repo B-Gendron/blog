@@ -74,12 +74,13 @@ footer {
 /* Your existing styles go here */
 
 .language-selector {
-    text-align: center;
-    margin: 10px;
+    text-align: right;
+    background-color: #4e79a7; /* Calm blue footer */
+    color: #ffffff;
 }
 
 .language-selector button {
-    margin: 5px;
-    padding: 5px 10px;
+    margin: 2px;
+    padding: 2px 10px;
     cursor: pointer;
 }
